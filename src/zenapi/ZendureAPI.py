@@ -18,7 +18,7 @@ log = logging.getLogger(__name__)
 PROD_NAME = os.environ.get('PROD_NAME','SolarFlow2.0')
 
 SF_API_URL = "https://app.zendure.tech"
-SF_API_VERSION = "v2"
+SF_API_VERSION = "eu"
 SF_API_BASE_URL = f'{SF_API_URL}/{SF_API_VERSION}'
 
 class ZendureAPI():
